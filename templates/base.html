@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  {% if page.title %}
+  <title>{{ page.title }}</title>
+  {% else %}
+  <title>Dhruvcodes</title>
+  {% endif %}
+  <link href="/css/style.css" rel="stylesheet"/>
+  <link rel="shortcut icon" href="/logo.ico" type="image/x-icon">
+</head>
+
+<body>
+	<!-- <div id="bd">
+		<nav id="items">
+		<a href="/">Home</a>
+		<a href="/about">About</a>
+		<a href="/blog">Blog</a>
+		<a href="/contact">Contact</a>
+		<a href="https://github.com/quickcodes/college/tree/master/BCA_5sem">Study</a>
+		<a href="https://youtube.com/channel/UCp3ivLq9PRtnOOUrM8uYTsA">YouTube</a>
+	</nav>
+
+	</div> -->
+	<!-- <ht></ht> -->
+	<header>
+		<h1>
+
+	<img id="head-doll" alt="" src="/custom_img/dancing_doll.gif" >
+			Dhruv <span>Soni</span>
+			<img id='head-comp' alt="" src="/custom_img/computer1.gif">
+		</h1>
+		<nav>
+		  [<span><a id="tag" href="/">Home</a></span>|
+		  <span><a id="tag" href="/about">About</a></span>|
+		  <span><a id="tag" href="/blog">Blog</a></span>|
+		  <span><a id="tag" href="https://github.com/quickcodes/college/blob/master/BCA_5sem/study.md">Study</a></span>|
+		  <span><a id="tag" href="https://youtube.com/channel/UCp3ivLq9PRtnOOUrM8uYTsA">YouTube</a></span>|
+		  <span><a id="tag" href="/contact">Contact</a></span>]
+		</nav>
+	  </header>
+	<!-- <nav>
+		<a href="/">Home</a>
+		<a href="/about">About</a>
+		<a href="/blog">Blog</a>
+		<a href="/contact">Contact</a>
+		<a href="https://github.com/quickcodes/college/tree/master/BCA_5sem">Study</a>
+		<a href="https://youtube.com/channel/UCp3ivLq9PRtnOOUrM8uYTsA">YouTube</a>
+	</nav> -->
+	<hr>
+
+	<aside>
+		<section>
+		  <img alt="" src="https://gallery.bugswriter.com/random/grunge?random=1">
+		  <img alt="" src="https://gallery.bugswriter.com/random/grunge?random=2">
+		  <img alt="" src="https://gallery.bugswriter.com/random/grunge?random=3">
+		  <img alt="" src="https://gallery.bugswriter.com/random/grunge?random=4">
+		</section>
+		<section>
+		  <blockquote>
+			❝ A fine quotation is a diamond on the finger of a man of wit,<br>
+			&nbsp &nbsp &nbsp and a pebble in the hand of a fool. ❞
+		  </blockquote>
+		</section>
+	</aside>
+
+	<img id='anime' alt="" src="/custom_img/anime2.gif">
+	<img id="computer" alt="" src="/custom_img/computer.gif" >
+
+  <section class="section">
+    <div class="container">
+      {% block content %} {% endblock %}
+    </div>
+  </section>
+  <hr>
+  <footer>&copy dhruv soni 2022-2023</footer>
+</body>
+
+</html>
