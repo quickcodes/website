@@ -1,16 +1,21 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">
-  {{ section.title }}
-</h1>
-<ul>
+<h1 class="title">{{ section.title }} -</h1>
+<div id="blog-list">
+  <blockquote>
+    Here is the list of my blogs, i write tons of bullshit after two drinks and forget later.
+  </blockquote>
   {% for page in section.pages %}
-  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+  <div id="blog-summary">
+    <h3><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h3>
+    <code>{{ page.date }}</code>
+    {{ page.summary | safe }}
+    <a href="{{ page.permalink | safe }}">continue reading...</a>
+  </div>
+  {% if page.title != "First Blog" %}
+    <hr>
+  {% endif %}
   {% endfor %}
-</ul>
-<div>
-	<embed src="https://va.media.tumblr.com/tumblr_pho8pcvrcg1sqvybw.mp4"  autoplay="false" autostart="false" width="200;" height="200;">
-<div>
+</div>
 {% endblock content %}
-

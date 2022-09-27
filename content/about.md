@@ -1,5 +1,6 @@
 +++
 title = "About me"
+page_template = "page.html"
 +++
 
 What more do you wanna know about me?

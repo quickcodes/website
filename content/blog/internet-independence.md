@@ -3,10 +3,13 @@ title = "Internet Independence"
 date = 2022-09-08
 +++
 
-# Internet Independence and Cell phones
+we all are getting f@ked by those big tech companies
+<!-- more -->
+
 ## You think your independent, but you are not.
 
 Everyone now days carries a cell phones with them even small childs, And it's important right?
+
 
 It is good to have a cell phone, it connect's us with the outer world, makes our life easier, happier, makes us more productive etc... But here is the thing, Yes it have plenty of advantages but the list of the disadvantages a normie don't know is far far more bigger than you expected... the more you are using cell phones and internet the more stupid, boring and annoying you are becoming and let us just talk about it more.
 
@@ -18,7 +21,6 @@ They have created anti-patterns to make you less of a person lets be real. And i
 
 
 You don't really have authority to get rid of them or really tell them what to do, what not to do.
-
 
 You think you have the access to your phone because it's your personal device but in reality you don't really have permissions to change it, google does or apple does they have permissions to do anything with your personal device to make a your life better in their wording or to make a world better place.
 

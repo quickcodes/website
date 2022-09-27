@@ -1,7 +1,8 @@
 +++
 title = "How to reach me?"
-#page_template = "page.html"
+page_template = "page.html"
 +++
 
-# Contact
-***dhruvcodes7220@gmail.com***
+- Email: ***dhruvcodes7220@gmail.com***
+- Instagram: [dhruvcodes](https://www.instagram.com/dhruvcodes.log/)
+

@@ -9,9 +9,19 @@
     src: url(../fonts/Kingthings-Foundation.ttf);
 }
 
-body{
-    max-width: 900px;
-    margin: auto;
+body {
+	/* background-color: #7B7B7E; */
+	background-image: url(../custom_img/subtlefeather-bg.jpg);
+	max-width: 900px;
+	margin: auto;
+	content: center;
+	border: 1px solid white;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	color: black;
+
 }
 
 
@@ -23,25 +33,6 @@ hr{
     color: white;
     margin-top: 10px;
 }
-
-pre {
-    font-family: "Hack";
-    padding: 1%;
-    border-radius: 20px;
-}
-
-a{
-    text-decoration: none;
-}
-a:hover {
-    font-style: italic;
-}
-
-footer span{
-    text-align: center;
-    margin-top: 0.5em;
-}
-
 header {
     text-align: center;
 }
@@ -51,20 +42,7 @@ header h1 {
 
 header nav a{
     padding: 0.5em;
-}
-
-table {
-    border-collapse: collapse;
-    font-size: 0.9em;
-}
-
-table th{
-    background-color: purple;
-    color: white;
-}
-tr, th, td{
-    border: 1px solid black;
-    padding: 0.3em;
+    font-size: 130%;
 }
 
 header, footer {
@@ -80,20 +58,6 @@ header h1 span{
     color: purple;
 }
 
-article {
-    width: fit-content;
-    text-align: center;
-    padding: 0.5em;
-}
-
-ul { text-align: left; }
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 blockquote {
     font-style: italic;
 }
@@ -107,6 +71,7 @@ aside{
     max-width: 350px;
     text-align: center;
 }
+
 aside blockquote {
     font-size: 0.8em;
 }
@@ -117,50 +82,6 @@ aside img{
     vertical-align: top;
     width: 45%;
 }
-
-#blog ul, #blog ol{
-    padding-left: 4%;
-    padding-right: 4%;
-}
-
-#blog img{
-    max-width: 600px;
-}
-
-p:has(> img){
-    text-align: center;
-}
-
-@media (max-width:1000px)  {
-    body {
-        font-size: 80%;
-        padding: 3%;
-    }
-    #blog img{
-        max-width: 80%;
-    }
-}
-
-@media (max-width:1600px)  {
-    body {
-        font-size: 90%;
-        padding: 1%;
-    }
-    aside {
-        display: none;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
 
 #anime{
 	padding: 0.1em;
@@ -197,6 +118,30 @@ p:has(> img){
 }
 
 
+/* @media (min-width: 500px){
+    #tag{
+        font-size: 160%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    header nav a{
+        font-size: 160%;
+        background-color: red;
+    }
+} */
+
+
+@media (max-width:1600px)  {
+    body {
+        font-size: 90%;
+        /* padding: 1%; */
+    }
+    aside {
+        display: none;
+    }
+
+}
 
 @media (max-width:1400px){
 	#anime {
@@ -208,24 +153,33 @@ p:has(> img){
 	#computer{
 		display: none;
 	}
-	#head-doll{
-		display: none;
-	}
-	#head-comp{
-		display: none;
-	}
 }
 
 
 
+/* @media (max-width: 700px){
+    header nav a{
+        padding: 0.5em;
+        font-size: 150%;
+    }
+}
 
+@media (max-width: 500px){
+    header nav a{
+        padding: 0.5em;
+        font-size: 200%;
+    }
+}
+------------------------------------ */
 
-
-
-
-
-
-
-
-
-
+/* nav a{
+	padding: 5px;
+	font-size:calc(6px + 1.5vw);
+} */
+/*
+#bd{
+	position: absolute;
+}
+#items{
+	text-align: center;
+} */
